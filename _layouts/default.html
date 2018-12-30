@@ -10,11 +10,19 @@
     <link rel="stylesheet" href="/css/app.css">
   </head>
   <body>
-    <header class="sticky-shrinknav-header">
-      <div class="sticky-shrinknav-header-title">{{ site.name }}</div>
-      <ul class="menu align-center sticky-shrinknav-menu">
-        <li><a href="#">Home</a></li>
-      </ul>
+    <header>
+      <div class="top-bar">
+        <ul class="menu">
+          <li>
+            <div><a href="/">{{ site.name }}</a></div>
+          </li>
+          <li>
+            <ul class="menu">
+              <li><a href="/teams/bath-rugby">Bath Rugby</a></li>
+            </ul>
+          </li>
+        </ul> 
+      </div>
     </header>
     {{ content }}
 
