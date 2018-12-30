@@ -1,5 +1,9 @@
-header, footer {
+.top-bar, footer {
   background-color: #6EAADC;
+  color: #fff;
+}
+
+.top-bar a {
   color: #fff;
 }
 
