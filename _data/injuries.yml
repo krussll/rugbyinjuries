@@ -1,0 +1,55 @@
+- name: "Bath Rugby"
+  players:
+    - name: "Anthony Watson"
+      injury: "Achilles"
+      expectedreturn: "Early 2019"
+      report: "https://www.bathrugby.com/news/injury-update-4/"
+    - name: "Joe Cokanasiga"
+      injury: "Medial knee ligament"
+      expectedreturn: "Mid-January"
+      report: "https://www.bathrugby.com/news/injury-update-4/"
+    - name: "Taulupe Faletau"
+      injury: "Fractured forearm"
+      expectedreturn: "Early January"
+      report: "https://www.bathrugby.com/news/injury-update-4/"
+    - name: "Jonathan Joseph"
+      injury: "Mid-foot ligament repair"
+      expectedreturn: "Early January"
+      report: "https://www.bathrugby.com/news/injury-update-4/"
+    - name: "Beno Obano"
+      injury: "Combined ligament injury - left knee"
+      expectedreturn: "Mid-2019"
+      report: "https://www.bathrugby.com/news/injury-update-4/"
+
+- name: "Bristol Bears"
+  players: ""
+
+- name: "Exeter Chiefs"
+  players: ""
+
+- name: "Gloucester Rugby"
+  players: ""
+
+- name: "Harlequins"
+  players: ""
+
+- name: "Leicester Tigers"
+  players: ""
+
+- name: "Newcastle Falcons"
+  players: ""
+
+- name: "Northampton Saints"
+  players: ""
+
+- name: "Sale Sharks"
+  players: ""
+
+- name: "Saracens"
+  players: ""
+
+- name: "Wasps"
+  players: ""
+
+- name: "Worcester Warriors"
+  players: ""

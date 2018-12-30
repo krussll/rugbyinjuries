@@ -1,0 +1,42 @@
+---
+layout: default
+title: Rugby Premiership Injuries
+---
+  <div class="grid-container">
+    <div class="grid-x grid-padding-x">
+      <div class="large-12 cell">
+        <h1>{{ page.title }}</h1>
+      </div>
+    </div>
+
+    <div class="grid-x grid-padding-x">
+      <div class="large-12 cell">
+        <ul class="accordion" data-accordion data-allow-all-closed="true">
+          {% for team in site.data.injuries %}
+            <li class="accordion-item" data-accordion-item>
+              <a href="#" class="accordion-title">{{ team.name }}</a>
+              <div class="accordion-content" data-tab-content>
+                <table>
+                  <tbody>
+                    {% for player in team.players %}
+                      <tr>
+                        <td>
+                          {{ player.name }}
+                        </td>
+                        <td>
+                          {{ player.injury }}
+                        </td>
+                        <td>
+                          {{ player.expectedreturn }}
+                        </td>
+                      </tr>
+                    {% endfor %}
+                  </tbody>
+                </table>
+              </div>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>

@@ -1,0 +1,37 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+  <body>
+    <header class="sticky-shrinknav-header">
+      <div class="sticky-shrinknav-header-title">{{ site.name }}</div>
+      <ul class="menu align-center sticky-shrinknav-menu">
+        <li><a href="#">Home</a></li>
+      </ul>
+    </header>
+    {{ content }}
+
+    <footer>
+      <div class="footer-nav row expanded collapse">
+        <div class="footer-nav-left">
+          <p class="footer-copyright">© {{ site.company }}</p>
+        </div>
+        <div class="footer-nav-center">
+        </div>
+        <div class="footer-nav-right">
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
