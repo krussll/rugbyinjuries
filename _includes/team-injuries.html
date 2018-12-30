@@ -1,0 +1,21 @@
+{% for team in site.data.injuries %}
+  {% if team.name == page.team %}
+    <table>
+      <tbody>
+        {% for player in team.players %}
+          <tr>
+            <td>
+              {{ player.name }}
+            </td>
+            <td>
+              {{ player.injury }}
+            </td>
+            <td>
+              {{ player.expectedreturn }}
+            </td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  {% endif %}
+{% endfor %}
