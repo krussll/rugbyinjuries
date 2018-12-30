@@ -12,11 +12,15 @@
   <body>
     <header>
       <div class="top-bar">
-        <ul class="menu">
-          <li>
-            <div class="site-name"><a href="/">{{ site.name }}</a></div>
+        <ul class="vertical menu">
+          <li>            
+            <ul class="menu">
+              <li>
+                <div class="site-name"><a href="/">{{ site.name }}</a></div>
+              </li>
+            </ul> 
           </li>
-          <li>
+          <li>        
             <ul class="menu">
               <li><a href="/teams/bath-rugby">Bath Rugby</a></li>
               <li><a href="/teams/bristol-bears">Bristol Bears</a></li>
@@ -32,7 +36,7 @@
               <li><a href="/teams/worcester-warriors">Worcester Warriors</a></li>
             </ul>
           </li>
-        </ul> 
+        </ul>
       </div>
     </header>
     {{ content }}
