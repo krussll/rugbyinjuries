@@ -1,4 +1,4 @@
-.top-bar, footer {
+.top-bar, .top-bar ul, footer {
   background-color: #6EAADC;
   color: #fff;
 }
