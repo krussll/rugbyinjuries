@@ -7,6 +7,10 @@
   color: #fff;
 }
 
+.top-bar .menu.sub-menu {
+  font-size: 0.75em;
+}
+
 .footer-nav {
     max-width: 75rem;
     margin-right: auto;
