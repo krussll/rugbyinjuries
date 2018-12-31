@@ -16,9 +16,9 @@ footer {
 }
 
 .menu-icon::after {
-  background: #000;
-    -webkit-box-shadow: 0 7px 0 #000, 0 14px 0 #000;
-    box-shadow: 0 7px 0 #000, 0 14px 0 #000;
+  background: #cacaca;
+    -webkit-box-shadow: 0 7px 0 #cacaca, 0 14px 0 #cacaca;
+    box-shadow: 0 7px 0 #cacaca, 0 14px 0 #cacaca;
 }
 
 .top-bar .menu.sub-menu {
