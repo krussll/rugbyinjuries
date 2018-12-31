@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div class="grid-container">
+<div class="grid-container {{ page.team | downcase | replace: " ", "-" }}">
   <div class="hero-section">
     <div class="hero-section-text">
       <h1>{{ page.title }}</h1>
