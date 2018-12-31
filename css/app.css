@@ -1,6 +1,6 @@
 .top-bar, .top-bar ul, .title-bar, footer {
-  background-color: #6EAADC;
-  color: #fff;
+  background-color: #fff;
+  color: black;
 }
 
 .top-bar a {
@@ -25,4 +25,14 @@
     width: 100%;
     -ms-flex-pack: center;
     justify-content: center;
+}
+
+.hero-section {
+  background-color: #6EAADC;
+  color: #fff;
+  height: 35vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
