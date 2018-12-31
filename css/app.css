@@ -65,6 +65,14 @@ footer {
   height:40vh;
 }
 
+table {
+  font-size: 13px;
+}
+
+th {
+  color: #454d59;
+}
+
 body.bath-rugby   .hero-section {
     background-color: #1e3b84;
 }
