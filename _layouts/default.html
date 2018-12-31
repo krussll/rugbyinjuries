@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="/css/foundation.css">
     <link rel="stylesheet" href="/css/app.css">
   </head>
-  <body>
+  <body class="{% if page.team %}{{ page.team | downcase | replace: " ", "-" }}{% endif %}">
     <header>
       <div class="title-bar" data-responsive-toggle="top-menu">
         <button class="menu-icon" type="button" data-toggle></button>
