@@ -7,11 +7,15 @@
   border-bottom: 1px solid #f1f1f1;
 }
 
-.top-bar a {
+footer {
+  border-top: 1px solid #f1f1f1;
+}
+
+.top-bar a, .title-bar a {
   color: #0a0a0a;
 }
 
-a.menu-icon span {
+.menu-icon {
   -webkit-box-shadow: 0 10px 0 1px #0a0a0a, 0 16px 0 1px #0a0a0a, 0 22px 0 1px #0a0a0a;
   box-shadow: 0px 10px 0px 1px #0a0a0a, 0px 16px 0px 1px #0a0a0a, 0px 22px 0px 1px #0a0a0a;
 }
