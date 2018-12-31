@@ -55,3 +55,51 @@ footer {
 .hero-section.tall {
   height:40vh;
 }
+
+body.bath-rugby   .hero-section {
+    background-color: #1e3b84;
+}
+
+body.bristol-bears .hero-section {
+    background-color: #0b0842;
+}
+
+body.exeter-chiefs .hero-section {
+    background-color: #000000;
+}
+
+body.gloucester-rugby .hero-section {
+    background-color: #c8102e;
+}
+
+body.harlequins .hero-section {
+    background-color: #b6234b;
+}
+
+body.leicester-tigers .hero-section {
+    background-color: #004939;
+}
+
+body.newcastle-falcons   .hero-section {
+    background-color: #000000;
+}
+
+body.northampton-saints .hero-section {
+    background-color: #00714b;
+}
+
+body.sale-sharks .hero-section {
+    background-color: #00235c;
+}
+
+body.saracens .hero-section {
+    background-color: #000000;
+}
+
+body.wasps .hero-section {
+    background-color: #000000;
+}
+
+body.worcester-warriors .hero-section {
+    background-color: #001744;
+  }
