@@ -1,11 +1,18 @@
 {% for team in site.data.injuries %}
   {% if team.name == page.team %}
     <table>
+      <thead>
+        <tr>
+          <th>Player</th>
+          <th>Issue</th>
+          <th>Latest Update</th>
+        </tr>
+      </thead>
       <tbody>
         {% for player in team.players %}
           <tr>
             <td>
-              {{ player.name }}
+              <b>{{ player.name }}</b>
             </td>
             <td>
               {{ player.injury }}
