@@ -1,7 +1,7 @@
 .top-bar, .top-bar ul, .title-bar, footer {
   background-color: #fff;
   color: black;
-  border-bottom: black;
+  border-bottom: 1px solid black;
 }
 
 .top-bar a {
