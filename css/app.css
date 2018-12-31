@@ -3,6 +3,10 @@
   font-weight: 500;
 }
 
+.site-name {
+  font-size: 22px;
+}
+
 .top-bar, .top-bar ul, .title-bar, footer {
   background-color: #fff;
   color: #0a0a0a;
