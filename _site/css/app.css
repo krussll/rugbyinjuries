@@ -1,45 +1,45 @@
+.site-name, h1, h2, h3 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 500; }
+
+.top-bar .site-name {
+  font-size: 22px; }
+
 .top-bar, .top-bar ul, .title-bar, footer {
   background-color: #fff;
-  color: #0a0a0a;
-}
+  color: #0a0a0a; }
 
 .top-bar, .title-bar {
-  border-bottom: 1px solid #f1f1f1;
-}
+  border-bottom: 1px solid #f1f1f1; }
 
 footer {
-  border-top: 1px solid #f1f1f1;
-}
+  border-top: 1px solid #f1f1f1; }
 
 .top-bar a, .title-bar a {
-  color: #0a0a0a;
-}
+  color: #0a0a0a; }
 
 .menu-icon::after {
   background: #cacaca;
-    -webkit-box-shadow: 0 7px 0 #cacaca, 0 14px 0 #cacaca;
-    box-shadow: 0 7px 0 #cacaca, 0 14px 0 #cacaca;
-}
+  -webkit-box-shadow: 0 7px 0 #cacaca, 0 14px 0 #cacaca;
+  box-shadow: 0 7px 0 #cacaca, 0 14px 0 #cacaca; }
 
 .top-bar .menu.sub-menu {
-  font-size: 12px;
-}
+  font-size: 12px; }
 
 .footer-nav {
-    max-width: 75rem;
-    margin-right: auto;
-    margin-left: auto;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-flow: row wrap;
-    flex-flow: row wrap;
-    -ms-flex-align: center;
-    align-items: center;
-    padding: 2rem;
-    width: 100%;
-    -ms-flex-pack: center;
-    justify-content: center;
-}
+  max-width: 75rem;
+  margin-right: auto;
+  margin-left: auto;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 2rem;
+  width: 100%;
+  -ms-flex-pack: center;
+  justify-content: center; }
 
 .hero-section {
   background-color: #6EAADC;
@@ -49,57 +49,76 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 70px;
-}
+  margin-bottom: 70px; }
 
 .hero-section.tall {
-  height:40vh;
-}
+  height: 40vh; }
 
-body.bath-rugby   .hero-section {
-    background-color: #1e3b84;
-}
+table {
+  font-size: 13px; }
+
+th {
+  color: #454d59; }
+
+th, td {
+  background-color: #fff; }
+
+body.bath-rugby .hero-section {
+  background-color: #1e3b84; }
+body.bath-rugby table {
+  border-top: #1e3b84 solid 3px; }
 
 body.bristol-bears .hero-section {
-    background-color: #0b0842;
-}
+  background-color: #0b0842; }
+body.bristol-bears table {
+  border-top: #0b0842 solid 3px; }
 
 body.exeter-chiefs .hero-section {
-    background-color: #000000;
-}
+  background-color: #000000; }
+body.exeter-chiefs table {
+  border-top: #000000 solid 3px; }
 
 body.gloucester-rugby .hero-section {
-    background-color: #c8102e;
-}
+  background-color: #c8102e; }
+body.gloucester-rugby table {
+  border-top: #c8102e solid 3px; }
 
 body.harlequins .hero-section {
-    background-color: #b6234b;
-}
+  background-color: #b6234b; }
+body.harlequins table {
+  border-top: #b6234b solid 3px; }
 
 body.leicester-tigers .hero-section {
-    background-color: #004939;
-}
+  background-color: #004939; }
+body.leicester-tigers table {
+  border-top: #004939 solid 3px; }
 
-body.newcastle-falcons   .hero-section {
-    background-color: #000000;
-}
+body.newcastle-falcons .hero-section {
+  background-color: #000000; }
+body.newcastle-falcons table {
+  border-top: #000000 solid 3px; }
 
 body.northampton-saints .hero-section {
-    background-color: #00714b;
-}
+  background-color: #00714b; }
+body.northampton-saints table {
+  border-top: #00714b solid 3px; }
 
 body.sale-sharks .hero-section {
-    background-color: #00235c;
-}
+  background-color: #00235c; }
+body.sale-sharks table {
+  border-top: #00235c solid 3px; }
 
 body.saracens .hero-section {
-    background-color: #000000;
-}
+  background-color: #000000; }
+body.saracens table {
+  border-top: #000000 solid 3px; }
 
 body.wasps .hero-section {
-    background-color: #000000;
-}
+  background-color: #000000; }
+body.wasps table {
+  border-top: #000000 solid 3px; }
 
 body.worcester-warriors .hero-section {
-    background-color: #001744;
-  }
+  background-color: #001744; }
+body.worcester-warriors table {
+  border-top: #001744 solid 3px; }

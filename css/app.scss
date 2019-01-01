@@ -1,9 +1,12 @@
+---
+---
+
 .site-name, h1, h2, h3 {
   font-family: 'Oswald', sans-serif;
   font-weight: 500;
 }
 
-.site-name {
+.top-bar .site-name {
   font-size: 22px;
 }
 
@@ -73,50 +76,127 @@ th {
   color: #454d59;
 }
 
-body.bath-rugby   .hero-section {
+th, td {
+  background-color: #fff;
+}
+
+
+body.bath-rugby {
+  .hero-section {
     background-color: #1e3b84;
+  }
+
+  table {
+    border-top: #1e3b84 solid 3px;
+  }
 }
 
-body.bristol-bears .hero-section {
+body.bristol-bears {
+  .hero-section {
     background-color: #0b0842;
+  }
+
+  table {
+    border-top: #0b0842 solid 3px;
+  }
 }
 
-body.exeter-chiefs .hero-section {
+body.exeter-chiefs {
+  .hero-section {
     background-color: #000000;
+  }
+
+  table {
+    border-top: #000000 solid 3px;
+  }
 }
 
-body.gloucester-rugby .hero-section {
+body.gloucester-rugby {
+  .hero-section {
     background-color: #c8102e;
+  }
+
+  table {
+    border-top: #c8102e solid 3px;
+  }
 }
 
-body.harlequins .hero-section {
+body.harlequins {
+  .hero-section {
     background-color: #b6234b;
+  }
+
+  table {
+    border-top: #b6234b solid 3px;
+  }
 }
 
-body.leicester-tigers .hero-section {
+body.leicester-tigers {
+  .hero-section {
     background-color: #004939;
+  }
+
+  table {
+    border-top: #004939 solid 3px;
+  }
 }
 
-body.newcastle-falcons   .hero-section {
+body.newcastle-falcons {
+  .hero-section {
     background-color: #000000;
+  }
+
+  table {
+    border-top: #000000 solid 3px;
+  }
 }
 
-body.northampton-saints .hero-section {
+body.northampton-saints {
+  .hero-section {
     background-color: #00714b;
+  }
+
+  table {
+    border-top: #00714b solid 3px;
+  }
 }
 
-body.sale-sharks .hero-section {
+body.sale-sharks {
+  .hero-section {
     background-color: #00235c;
+  }
+
+  table {
+    border-top: #00235c solid 3px;
+  }
 }
 
-body.saracens .hero-section {
+body.saracens {
+  .hero-section {
     background-color: #000000;
+  }
+
+  table {
+    border-top: #000000 solid 3px;
+  }
 }
 
-body.wasps .hero-section {
+body.wasps {
+  .hero-section {
     background-color: #000000;
+  }
+
+  table {
+    border-top: #000000 solid 3px;
+  }
 }
 
-body.worcester-warriors .hero-section {
+body.worcester-warriors {
+  .hero-section {
     background-color: #001744;
   }
+
+  table {
+    border-top: #001744 solid 3px;
+  }
+}
