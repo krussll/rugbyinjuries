@@ -36,7 +36,11 @@
   players: ""
 
 - name: "Gloucester Rugby"
-  players: ""
+  players:
+    - name: "Danny Cipriani"
+      injury: "chest injury"
+      expectedreturn: "Unknown"
+      source: "https://www.premiershiprugby.com/2018-2019/big-match-preview-leicester-tigers-v-gloucester-rugby-in-gallagher-premiership-rugby/"
 
 - name: "Harlequins"
   players: ""
