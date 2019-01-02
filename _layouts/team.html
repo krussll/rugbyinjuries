@@ -10,17 +10,21 @@ layout: default
 <div class="grid-container">
   <div class="grid-x grid-padding-x">
     <div class="large-12 cell">
-        {% include team-injuries.html %}
-      
-        {% include team-suspensions.html %}
-      
-        {% include team-depth-chart.html %}
-      
+      <h2>Injuries and suspensions</h2>
+      {% include team-injuries.html %}
+
+      <h2>Depth chart</h2>
+      {% include team-depth-chart.html %}
+
       <p>
-        Our Premiership Rugby injury list is updated on a daily basis and is designed to keep you abreast of the latest injuries and bans in the Premiership. While the information is thoroughly researched, we cannot guarantee that it is 100% accurate, and we accept no liability for any loss incurred by acting upon the information here.
+        <small>
+          Our Premiership Rugby injury list is updated on a daily basis and is designed to keep you abreast of the latest injuries and bans in the Premiership. While the information is thoroughly researched, we cannot guarantee that it is 100% accurate, and we accept no liability for any loss incurred by acting upon the information here.
+        </small>
       </p>
-      
-      <p>Have we missed anything? Pleaselet us know by tweeting us at @{{ site.twitter }}</p>
+
+      {% if site.twitter %}
+        <p>Have we missed anything? Please let us know by tweeting us at @{{ site.twitter }}</p>
+      {% endif %}
     </div>
   </div>
 </div>
