@@ -2,7 +2,7 @@
   players:
     - name: "Nathan Catt"
       injury: "Sore Shoulder"
-      expectedreturn: "Late January"
+      expectedreturn: "Day to day"
       source: ""
     - name: "Anthony Watson"
       injury: "Achilles"
@@ -34,6 +34,10 @@
       source: ""
 - name: "Bristol Bears"
   players:
+    - name: "Ryan Edwards"
+      injury: "Achilles injury"
+      expectedreturn: "Late January"
+      source: ""
     - name: "Alapati Leiua"
       injury: "Ankle injury"
       expectedreturn: "February"
@@ -80,10 +84,6 @@
 
 - name: "Gloucester Rugby"
   players:
-    - name: "Will Safe"
-      injury: "Ankle injury"
-      expectedreturn: "Day to day"
-      source: ""
     - name: "Todd Gleave"
       injury: "Hand injury"
       expectedreturn: "Day to day"
@@ -91,10 +91,6 @@
     - name: "Jake Polledri"
       injury: "Ankle knee"
       expectedreturn: "March"
-      source: ""
-    - name: "Danny Cipriani"
-      injury: "Shoulder injury"
-      expectedreturn: "Day to day"
       source: ""
     - name: "James Hanson"
       injury: "Hand injury"
@@ -181,7 +177,6 @@
       injury: "Broken leg"
       expectedreturn: "January/February"
       source: ""
-
 - name: "Northampton Saints"
   players:  
     - name: "Dylan Hartley"
@@ -208,10 +203,6 @@
       injury: "Knee injury"
       expectedreturn: "Unkown"
       source: ""
-    - name: "James Haskell"
-      injury: "Ankle injury"
-      expectedreturn: "Unkown"
-      source: ""
     - name: "Ken Pisi"
       injury: "Damaged shoulder injury"
       expectedreturn: "January"
@@ -228,7 +219,6 @@
       injury: "Concussion"
       expectedreturn: "Unkown"
       source: ""
-
 - name: "Sale Sharks"
   players:
     - name: "Marland Yarde"
@@ -278,9 +268,12 @@
     - name: "Ryan Bower"
       injury: "Achilles tendon injury"
       expectedreturn: "March/April"
+      source: ""
     - name: "Ashley Beck"
       injury: "Broken leg injury"
       expectedreturn: "January"
+      source: ""
     - name: "Cornell du Preez"
       injury: "Larynx injury"
       expectedreturn: "Unknown"
+      source: ""
