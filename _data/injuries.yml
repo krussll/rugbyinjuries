@@ -28,6 +28,10 @@
       injury: "Fractured ankle"
       expectedreturn: "March"
       source: "https://www.bbc.co.uk/sport/rugby-union/46736639"
+    - name: "Ross Batty"
+      injury: "Suspended (dangerous play)"
+      expectedreturn: "5th February"
+      source: ""
 - name: "Bristol Bears"
   players:
     - name: "Alapati Leiua"
