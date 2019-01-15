@@ -1,5 +1,9 @@
 - name: "Bath Rugby"
   players:
+    - name: "Taulupe Faletau"
+      injury: "Broken arm"
+      expectedreturn: "March"
+      source: ""
     - name: "Ruaridh McConnochie"
       injury: "Hamstring injury"
       expectedreturn: "Late January"
