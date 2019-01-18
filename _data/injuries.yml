@@ -20,10 +20,6 @@
       injury: "Medial knee ligament injury"
       expectedreturn: "Mid-January"
       source: ""
-    - name: "Jonathan Joseph"
-      injury: "Mid-foot ligament repair"
-      expectedreturn: "Day to day"
-      source: "https://www.bathrugby.com/news/injury-update-4/"
     - name: "Beno Obano"
       injury: "Knee ligament injury"
       expectedreturn: "Mid-2019"
@@ -225,7 +221,7 @@
       expectedreturn: "January/February"
       source: ""
 - name: "Northampton Saints"
-  players:  
+  players:
     - name: "Dylan Hartley"
       injury: "Knee injury"
       expectedreturn: "Early February"
