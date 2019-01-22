@@ -33,24 +33,29 @@ footer {
     box-shadow: 0 7px 0 #cacaca, 0 14px 0 #cacaca;
 }
 
-.top-bar .menu.sub-menu {
-  font-size: 12px;
-}
-
-.footer-nav {
-    max-width: 75rem;
-    margin-right: auto;
-    margin-left: auto;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-flow: row wrap;
-    flex-flow: row wrap;
-    -ms-flex-align: center;
-    align-items: center;
-    padding: 2rem;
-    width: 100%;
-    -ms-flex-pack: center;
-    justify-content: center;
+footer {
+  ul.sub-menu {
+    a {
+      color: #0a0a0a;
+      font-size: 12px;
+    }
+  }
+  
+  .footer-nav {
+      max-width: 75rem;
+      margin-right: auto;
+      margin-left: auto;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-flow: row wrap;
+      flex-flow: row wrap;
+      -ms-flex-align: center;
+      align-items: center;
+      padding: 2rem;
+      width: 100%;
+      -ms-flex-pack: center;
+      justify-content: center;
+  }
 }
 
 .hero-section {
